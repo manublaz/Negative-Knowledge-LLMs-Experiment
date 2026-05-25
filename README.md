@@ -6,7 +6,6 @@
 [![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![Gemini API](https://img.shields.io/badge/Google_Gemini_API-2.5--flash--lite-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com)
 [![RAG](https://img.shields.io/badge/RAG-Retrieval--Augmented_Generation-orange?style=for-the-badge)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
-[![License](https://img.shields.io/badge/License-CC--BY_4.0-green?style=for-the-badge)](LICENSE)
 
 **Herramienta de demostración experimental para evaluar el impacto del conocimiento negativo curado (resultados negativos científicos) en la calibración de respuestas de modelos de lenguaje de gran escala (LLMs), mediante Retrieval-Augmented Generation (RAG) y evaluación automática por IA.**
 
