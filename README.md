@@ -16,8 +16,6 @@
 
 ## 📋 Descripción
 
-Este repositorio contiene el script PHP de demostración experimental desarrollado para el artículo científico de Blázquez-Ochando, Ovalle Perandones y Prieto Gutiérrez (2026), publicado en la *Revista Española de Documentación Científica*.
-
 El experimento pone a prueba la hipótesis central del artículo: **la inclusión de evidencia negativa curada (resultados de replicación fallida, ensayos clínicos nulos, meta-análisis refutatorios) como contexto RAG en un LLM produce respuestas científicamente más calibradas, exhaustivas y cautelosas** que las generadas exclusivamente a partir del corpus de preentrenamiento, que refleja el sesgo positivo estructural de la literatura científica publicada.
 
 El sistema no requiere ajuste fino (*fine-tuning*) del modelo. Demuestra que una arquitectura RAG con un corpus de resultados negativos curados —el *Negative Results Repository* (NRR) propuesto en el artículo— puede mejorar inmediatamente la fiabilidad de los asistentes de IA científica.
