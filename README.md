@@ -10,9 +10,6 @@
 
 **Herramienta de demostración experimental para evaluar el impacto del conocimiento negativo curado (resultados negativos científicos) en la calibración de respuestas de modelos de lenguaje de gran escala (LLMs), mediante Retrieval-Augmented Generation (RAG) y evaluación automática por IA.**
 
-*Sección 5 del artículo «La documentación del fracaso: gestión del conocimiento negativo como activo informacional estratégico para la ciencia y la inteligencia artificial»*  
-*Revista Española de Documentación Científica, Vol. 49, N.º 2, 2026 — DOI: 10.3989/redc.2026.e9817*
-
 </div>
 
 ---
