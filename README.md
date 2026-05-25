@@ -40,19 +40,19 @@ El sistema no requiere ajuste fino (*fine-tuning*) del modelo. Demuestra que una
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    CONSULTA CIENTÍFICA                       │
-│                  (misma query A y B)                         │
+│                    CONSULTA CIENTÍFICA                      │
+│                  (misma query A y B)                        │
 └───────────────────┬─────────────────────┬───────────────────┘
                     │                     │
           ┌─────────▼──────┐   ┌──────────▼──────────────┐
-          │  CONDICIÓN A   │   │     CONDICIÓN B          │
-          │  Sin RAG       │   │  + Corpus RAG negativo   │
-          │  (preentren.)  │   │  (NRR curado)            │
-          └─────────┬──────┘   └──────────┬───────────────┘
+          │  CONDICIÓN A   │   │     CONDICIÓN B         │
+          │  Sin RAG       │   │  + Corpus RAG negativo  │
+          │  (preentren.)  │   │  (NRR curado)           │
+          └─────────┬──────┘   └──────────┬──────────────┘
                     │                     │
           ┌─────────▼─────────────────────▼───────────────┐
-          │           Google Gemini API                     │
-          │        (mismo modelo, T=0.2)                    │
+          │           Google Gemini API                   │
+          │        (mismo modelo, T=0.2)                  │
           └──────────────────┬────────────────────────────┘
                              │
               ┌──────────────▼──────────────┐
@@ -208,26 +208,6 @@ El artículo argumenta que el sesgo de publicación positiva —documentado por 
 
 ---
 
-## 👥 Autores
-
-| Autor | ORCID | Contacto |
-|-------|-------|---------|
-| **Manuel Blázquez-Ochando** — Profesor Titular, Dpto. Biblioteconomía y Documentación, UCM | [0000-0002-4108-7531](https://orcid.org/0000-0002-4108-7531) | manublaz@ucm.es |
-| **María Antonia Ovalle Perandones** — Profesora Titular, Dpto. Biblioteconomía y Documentación, UCM | [0000-0002-3449-7540](https://orcid.org/0000-0002-3449-7540) | maovalle@ucm.es |
-| **Juan José Prieto Gutiérrez** — Profesor, Dpto. Biblioteconomía y Documentación, UCM | [0000-0002-1730-8621](https://orcid.org/0000-0002-1730-8621) | jjpg@ucm.es |
-
-**Facultad de Ciencias de la Documentación · Universidad Complutense de Madrid**
-
----
-
-## 📄 Licencia
-
-Este proyecto se distribuye bajo licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**.  
-Puedes usar, modificar y redistribuir el código citando la fuente original.  
-Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
 <div align="center">
 
 Este experimento representa una contribución a la intersección entre la Inteligencia Artificial y las Ciencias de la Documentación, demostrando que la gestión del conocimiento negativo —la documentación sistemática de los fracasos científicos— es un requisito funcional para construir sistemas de IA científica fiables, calibrados y con espíritu crítico.
@@ -240,41 +220,5 @@ Este experimento representa una contribución a la intersección entre la Inteli
 
 Si utilizas este experimento o el código en tu investigación o docencia, por favor cítalo de la siguiente forma:
 
-**Cita del artículo científico:**
+> Blázquez-Ochando, M., Ovalle Perandones, M. A., & Prieto Gutiérrez, J. J. (2026). *NRR-Experiment-RAG: Herramienta de demostración experimental del efecto del conocimiento negativo en LLMs mediante RAG* [Software]. GitHub. https://github.com/manublaz/Negative-Knowledge-LLMs-Experiment
 
-> Blázquez-Ochando, M., Ovalle Perandones, M. A., & Prieto Gutiérrez, J. J. (2026). La documentación del fracaso: gestión del conocimiento negativo como activo informacional estratégico para la ciencia y la inteligencia artificial. *Revista Española de Documentación Científica*, 49(2), e9817. https://doi.org/10.3989/redc.2026.e9817
-
-**Cita del software:**
-
-> Blázquez-Ochando, M., Ovalle Perandones, M. A., & Prieto Gutiérrez, J. J. (2026). *NRR-Experiment-RAG: Herramienta de demostración experimental del efecto del conocimiento negativo en LLMs mediante RAG con Google Gemini API* [Software]. GitHub. https://github.com/manublaz/nrr-experiment-rag
-
-**BibTeX:**
-
-```bibtex
-@article{blazquez2026documentacion,
-  author    = {Bl{\'a}zquez-Ochando, Manuel and
-               Ovalle Perandones, Mar{\'i}a Antonia and
-               Prieto Guti{\'e}rrez, Juan Jos{\'e}},
-  title     = {La documentaci{\'o}n del fracaso: gesti{\'o}n del conocimiento
-               negativo como activo informacional estrat{\'e}gico para la
-               ciencia y la inteligencia artificial},
-  journal   = {Revista Espa{\~n}ola de Documentaci{\'o}n Cient{\'i}fica},
-  volume    = {49},
-  number    = {2},
-  pages     = {e9817},
-  year      = {2026},
-  doi       = {10.3989/redc.2026.e9817}
-}
-
-@software{blazquez2026nrr,
-  author    = {Bl{\'a}zquez-Ochando, Manuel and
-               Ovalle Perandones, Mar{\'i}a Antonia and
-               Prieto Guti{\'e}rrez, Juan Jos{\'e}},
-  title     = {{NRR-Experiment-RAG}: Herramienta de demostraci{\'o}n
-               experimental del efecto del conocimiento negativo en {LLMs}
-               mediante {RAG} con {Google Gemini API}},
-  year      = {2026},
-  publisher = {GitHub},
-  url       = {https://github.com/manublaz/nrr-experiment-rag}
-}
-```
