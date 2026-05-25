@@ -1,9 +1,5 @@
 <?php
-/**
- * ══════════════════════════════════════════════════════════════════════════════
- *  EXPERIMENTO: Efecto del conocimiento negativo en LLMs — RAG con Gemini
- *  «La documentación del fracaso» · Blázquez-Ochando et al. (2026)
- *  Rev. Española de Documentación Científica, Vol. 49, N.º 2
+/*
  * ══════════════════════════════════════════════════════════════════════════════
  *  AUTORES:
  *   · Manuel Blázquez-Ochando   — manublaz@ucm.es — ORCID 0000-0002-4108-7531
