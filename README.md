@@ -1,4 +1,4 @@
-# Experimento RAG: Efecto del Conocimiento Negativo en LLMs
+# Efecto del Conocimiento Negativo en LLMs
 
 <div align="center">
 
